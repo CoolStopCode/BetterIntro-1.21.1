@@ -3,7 +3,8 @@
 	"package": "net.coolstop.betterintro.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"SplashOverlayMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
