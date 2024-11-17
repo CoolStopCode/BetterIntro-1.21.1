@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "betterintro",
+	"version": "${version}",
+	"name": "BetterIntro",
+	"description": "Gives a clean animation to Minecraft's intro screen",
+	"authors": [
+		"CoolStop"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/betterintro/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.coolstop.betterintro.BetterIntro"
+		],
+		"fabric-datagen": [
+			"net.coolstop.betterintro.BetterIntroDataGenerator"
+		],
+		"client": [
+			"net.coolstop.betterintro.BetterIntroClient"
+		]
+	},
+	"mixins": [
+		"betterintro.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
