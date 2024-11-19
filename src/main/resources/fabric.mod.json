@@ -1,14 +1,11 @@
 {
 	"schemaVersion": 1,
 	"id": "betterintro",
-	"version": "${version}",
+	"version": "0.1",
 	"name": "BetterIntro",
-	"description": "Custom loading screen mod",
-	"authors": ["Your Name"],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
+	"description": "Custom loading screen for Minecraft",
+	"authors": ["CoolStop"],
+	"contact": {},
 	"license": "MIT",
 	"icon": "assets/betterintro/icon.png",
 	"environment": "client",
@@ -21,7 +18,7 @@
 		"betterintro.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
+		"fabricloader": ">=0.14.0",
 		"minecraft": "~1.21.1",
 		"java": ">=17",
 		"fabric-api": "*"

@@ -3,11 +3,10 @@
 	"minVersion": "0.8",
 	"package": "net.coolstop.betterintro.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [
+	"client": [
 		"SplashOverlayMixin",
 		"SplashOverlayAccessor"
 	],
-	"client": [],
 	"injectors": {
 		"defaultRequire": 1
 	}
